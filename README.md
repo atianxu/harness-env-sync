@@ -9,7 +9,7 @@
 
 **简体中文** | [English](README.en.md)
 
-![控制台](docs/images/console.png)
+![控制台](docs/images/console-0.3.0.png)
 
 ---
 

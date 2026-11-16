@@ -9,7 +9,7 @@
 
 [简体中文](README.md) | **English**
 
-![Console](docs/images/console.png)
+![Console](docs/images/console-0.3.0.png)
 
 ---
 
