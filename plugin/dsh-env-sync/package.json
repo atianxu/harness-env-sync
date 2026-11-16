@@ -1,0 +1,39 @@
+{
+  "name": "dsh-env-sync",
+  "version": "0.2.0",
+  "description": "DeepSeek Harness 环境同步：把配置、当前在用插件及其配置、会话、技能、记忆库一起备份到 Git，换机器一键恢复。",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "engine",
+    "env-sync.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "git",
+    "backup",
+    "restore",
+    "environment",
+    "sync"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}

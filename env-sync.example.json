@@ -1,0 +1,43 @@
+{
+  "repoUrl": "",
+  "dataRoot": "",
+  "repoDir": "",
+  "branch": "env-sync",
+  "git": "",
+  "include": [
+    ".credentials.yaml",
+    ".anonymous-user-id",
+    ".meow-smooth",
+    "attachments",
+    "dsh-market",
+    "dsh-windows-mcp.settings.json",
+    "dsh-windows-mcp.state.json",
+    "dsh-windows-mcp.versions.json",
+    "mnemon",
+    "sessions",
+    "skills",
+    "storages",
+    "profiles/desktop/cordis.patch.yml",
+    "profiles/desktop/cordis.yml",
+    "profiles/desktop/package.json",
+    "profiles/desktop/pnpm-lock.yaml",
+    "profiles/desktop/.npmrc",
+    "profiles/desktop/pnpm-workspace.yaml",
+    "profiles/desktop/.dsh-market"
+  ],
+  "excludeNamePatterns": [
+    "*.lock",
+    "*.bak",
+    "*.bak_*",
+    "*.log",
+    "*.tmp",
+    "*.crdownload",
+    "*.pyc",
+    "*.db-shm",
+    "*.db-wal"
+  ],
+  "excludeDirNames": [
+    "node_modules",
+    "logs"
+  ]
+}

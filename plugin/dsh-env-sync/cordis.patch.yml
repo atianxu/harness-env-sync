@@ -1,0 +1,5 @@
+# dsh-env-sync bundle patch: 标准自挂载（仅主进程，无客户端 UI）。
+# name 是主进程 import 的包说明符；id 是用户配置可定位的稳定标识。
+- insert:
+    - id: dsh-env-sync
+      name: 'dsh-env-sync'

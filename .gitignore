@@ -1,0 +1,15 @@
+# 本机产物，不进仓库
+dist/
+*.log
+gui-config.json
+backup.cmd
+restore.cmd
+
+# 本机配置（含数据目录、仓库地址；带令牌时更是敏感）
+env-sync.json
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
