@@ -59,8 +59,8 @@ env_sync_configure(repo_url="https://gitee.com/<你的账号>/<仓库>.git")
 env_sync_backup()
 ```
 
-带令牌的地址（`https://oauth2:<令牌>@gitee.com/...`）只保存在本机 `env-sync.json` 与本地 git 配置里，
-不会进入同步内容；仓库里也不存在令牌。展示时一律脱敏成 `https://***@...`。
+带凭据的仓库地址（形如 `https://<用户>:<凭据>@<主机>/<owner>/<repo>.git`）只保存在本机
+`env-sync.json` 与本地 git 配置里，不会进入同步内容；仓库里也不存在凭据。展示时一律脱敏成 `https://***@...`。
 
 ## 换机器恢复
 
