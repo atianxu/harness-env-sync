@@ -115,4 +115,4 @@ docs\images\                  界面截图
 
 ## 许可证
 
-MIT，见 [LICENSE](LICENSE)。作者：atianxu。
+MIT，见 [LICENSE](LICENSE)。作者：D2W。

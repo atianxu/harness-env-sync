@@ -116,4 +116,4 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
-MIT — see [LICENSE](LICENSE). Author: atianxu.
+MIT — see [LICENSE](LICENSE). Author: D2W.
