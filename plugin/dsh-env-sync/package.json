@@ -1,6 +1,6 @@
 {
   "name": "dsh-env-sync",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "DeepSeek Harness 环境同步：把配置、当前在用插件及其配置、会话、技能、记忆库一起备份到 Git，换机器一键恢复。",
   "type": "module",
   "main": "./index.js",
